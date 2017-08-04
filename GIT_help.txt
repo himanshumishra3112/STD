@@ -1,0 +1,8 @@
+git config --global user.email "you@example.com"
+git config --global user.name "himanshumishra3112"
+
+git clone <repo URL>
+git add <file name> 		//to add new file into repo
+git commit -m <comment>		//to commit the change in local
+git push					//to push the change into repo
+git rm <file name>			//to remove a file
