@@ -11,8 +11,9 @@ class myFunctorClass
 
 int main()
 {
-    myFunctorClass addFive( 5 );
-    std::cout << addFive( 6 ) << std::endl;
+    myFunctorClass addFive( 5 ); // It will the Ctor
+
+    std::cout << addFive( 6 ) << std::endl;	// It will call overloaded () operator
 
     return 0;
 }
