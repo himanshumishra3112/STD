@@ -17,4 +17,5 @@ int main(){
     temp[strlen(temp)] = '\0';
 
     cout << temp << endl;
+	return 0;
 }
