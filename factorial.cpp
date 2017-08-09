@@ -17,3 +17,9 @@ int main()
 	cout << factorial(4) << endl;
 	return 0;
 }
+
+//return 5 * factorial(4)
+//return 5 * (4 * factorial(3));
+//return 5 * (4 * (3 * factorial(2)));
+//return 5 * (4 * (3 * 2));
+
