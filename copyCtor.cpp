@@ -28,3 +28,12 @@ int main() {
     emp1.print();
     emp2.print();
 }
+
+/*
+When is copy constructor called?
+In C++, a Copy Constructor may be called in following cases:
+1. When an object of the class is returned by value.
+2. When an object of the class is passed (to a function) by value as an argument.
+3. When an object is constructed based on another object of the same class.
+4. When compiler generates a temporary object.
+*/
