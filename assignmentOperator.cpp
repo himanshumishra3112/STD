@@ -30,6 +30,13 @@ class Emp {
             }
         }
 };
+
+Emp fun()
+{
+	Emp emp("Nayaz", new int (1234));
+	return emp;
+}
+
 int main() {
     Emp emp1("himanshu", new int(3036));
     Emp emp2("gautam", new int(3037));
@@ -41,4 +48,6 @@ int main() {
     emp1.print();
     emp2.print();
     emp3.print();
+
+	Emp emp4 = fun();
 }
