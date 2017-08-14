@@ -1,0 +1,13 @@
+https://tonka2013.wordpress.com/2013/08/31/why-every-c-developer-should-know-about-the-pimpl-idiom-pattern/
+
+Pros:
+
+Hide the private part of the class
+The binary compatibility ABI isn’t broken if you change something in the pimpl idiom class
+Lesser header dependencies => because most header now only needs to be in the *.cpp
+Faster compilation times
+Cons:
+
+The pimpl idiom could slow down your code (because there is always a pointer access) but there are some technique to speed up a pimpl idiom
+Extra heap-allocation
+
