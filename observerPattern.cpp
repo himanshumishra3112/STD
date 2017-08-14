@@ -79,3 +79,14 @@ int main() {
         delete pCObj1;
         delete pCObj2;
 };
+
+/*
+press 1 - 9
+1
+Notification Received at observer - 1 !!!
+Notification Received at observer - 2 !!!
+press 1 - 9
+2
+Notification Received at observer - 1 !!!
+Notification Received at observer - 2 !!!
+*/
