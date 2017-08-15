@@ -42,3 +42,5 @@ int main()
 
 	return 0;
 }
+
+//Third argument is compare: This can either be a function pointer or a function object.
