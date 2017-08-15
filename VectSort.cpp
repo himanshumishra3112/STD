@@ -12,8 +12,8 @@ bool myComp(string i,string j)
 
 class myclass {
 	public:
-	bool operator() (string i,string j) { return (i<j);}
-}myobject;
+		bool operator() (string i,string j) { return (i<j);}
+} myobject;
 
 int main()
 {
@@ -23,8 +23,8 @@ int main()
     aVect.push_back("hello3");
     aVect.push_back("hello4");
     aVect.push_back("hello2");
-    vector<string>::const_iterator itr = aVect.begin();
-    for (;itr != aVect.end(); itr++)
+
+	for (auto itr = aVect.begin();itr != aVect.end(); itr++)
     {
         cout << *itr << endl;
     }
@@ -34,9 +34,11 @@ int main()
 	// OR
 	//bool (*fPtr)(string,string) = myComp;
     //sort(aVect.begin(), aVect.end(), fPtr);
-    for (itr = aVect.begin(); itr != aVect.end(); itr++)
+
+    for (auto itr = aVect.begin(); itr != aVect.end(); itr++)
     {
         cout << *itr << endl;
     }
-    return 0;
+
+	return 0;
 }
