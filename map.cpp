@@ -1,4 +1,5 @@
 /* map::insert (C++98)*/
+//http://www.geeksforgeeks.org/inserting-elements-in-stdmap-insert-emplace-and-operator/
 #include <iostream>
 #include <map>
 
