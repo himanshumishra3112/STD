@@ -7,12 +7,12 @@ using namespace std;
 
 bool myComp(string i,string j)
 {
-	return (i<j);
+	return (i<j); // sort in ascending order
 }
 
 class myclass {
 	public:
-		bool operator() (string i,string j) { return (i<j);}
+		bool operator() (string i,string j) { return (i<j);} // sort in ascending order
 } myobject;
 
 int main()
