@@ -4,6 +4,7 @@
 #include <list>
 #include <memory>
 #include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 
@@ -21,6 +22,7 @@ class Test
 
 int main()
 {
+	cout << "Part-1" << endl;
 	{
 		list<Test> t1;
 		{
@@ -29,11 +31,14 @@ int main()
 			delete p1;
 		}
 
-		for (auto it = t1.begin(); it != t1.end(); it++)
-		{
-			cout << it->_a << endl;
-		}
+		//for_each(t1.begin(), t1.end(), [](Test elem) { cout << elem._a << endl;});
+		for_each(begin(t1), end(t1), [](Test elem) { cout << elem._a << endl;}); // Its calls copy Ctor... why???
+		//for (auto it = t1.begin(); it != t1.end(); it++)
+		//{
+		//	cout << it->_a << endl;
+		//}
 	}
+	cout << "Part-2" << endl;
 	{
 		list<shared_ptr<Test>> t1;
 		{
@@ -51,6 +56,7 @@ int main()
 		}
 	}
 
+	cout << "Part-3" << endl;
 	{
 		list<Test*> t1;
 		{
