@@ -1,0 +1,20 @@
+// STL algorithm
+
+
+Non modifing sequence algorithms
+================================
+-   for_each
+-   find
+-   find_if   (with predicate)
+-   count   
+-   count_if  (with predicate)
+-   equal
+-   search
+
+Mutating sequence algorithms
+============================
+-   copy
+-   copy_if
+-   remove_copy_if
+-   partition
+-   transform
