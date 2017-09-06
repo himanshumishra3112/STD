@@ -42,3 +42,6 @@ int main(){
 	first.join();
 	return 0;
 }
+
+
+//g++ -g  -std=c++11 mutex.cpp -pthread
