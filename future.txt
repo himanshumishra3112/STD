@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=SZQ6-pf-5Us
+
+
+Future and promise provide a convenience way to communicate between threads.
