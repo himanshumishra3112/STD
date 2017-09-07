@@ -45,3 +45,4 @@ int main(){
 
 
 //g++ -g  -std=c++11 mutex.cpp -pthread
+//http://jakascorner.com/blog/2016/02/lock_guard-and-unique_lock.html
