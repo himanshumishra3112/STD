@@ -1,0 +1,17 @@
+Lambda Expressions
+Automatic Type Deduction and decltype
+Uniform Initialization Syntax
+Deleted and Defaulted Functions
+nullptr
+Delegating Constructors
+Rvalue References
+C++11 Standard Library
+Threading Library
+New Smart Pointer Classes
+New C++ Algorithms
+
+all_of(), any_of(), none_of()
+ispositive()
+all_of(), any_of() and none_of()
+
+copy_n(source,5,target);
