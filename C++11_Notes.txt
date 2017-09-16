@@ -15,3 +15,8 @@ ispositive()
 all_of(), any_of() and none_of()
 
 copy_n(source,5,target);
+
+
+Usage of rvalue reference:
+  1. move sementics
+  2. perfect forwarding
