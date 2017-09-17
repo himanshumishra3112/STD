@@ -20,3 +20,11 @@ copy_n(source,5,target);
 Usage of rvalue reference:
   1. move sementics
   2. perfect forwarding
+  
+ 
+async, promise and future
+- to send data from one thread to another
+
+- no need of mutex
+- no need of condition variable
+- no locking required
