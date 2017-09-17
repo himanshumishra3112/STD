@@ -27,3 +27,6 @@ int main()
     cout << "Get from child: " << x << endl;
     return 0;
 }
+
+
+// future and promise object can not be copied (but can be moved).
