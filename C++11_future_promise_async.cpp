@@ -29,4 +29,5 @@ int main()
 }
 
 
-// future and promise object can not be copied (but can be moved).
+// future and promise object can not be copied (but can be moved just like unique_ptr).
+// shared_future can be copied and it is used for broadcast kind of scenario where multiple asyncs are called.
