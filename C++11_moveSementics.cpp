@@ -14,7 +14,7 @@ class Container {
 	~Container() {
 		if (m_Data) {
 			delete[] m_Data;
-			m_Data = NULL;
+			m_Data = nullptr;
 		}
 	}
 	
@@ -35,7 +35,9 @@ class Container {
 
 		if(this != &obj)
 		{
+			// Free the existing resource
 			delete [] m_Data;
+			
 			//Allocate an array of 20 int on heap
 			m_Data = new int[20];
 
@@ -65,6 +67,9 @@ class Container {
 	{
 		if(this != &obj)
 		{
+			// Free the existing resource
+			delete [] m_Data;
+			
 			// Just copy the pointer
 			m_Data = obj.m_Data;
 
