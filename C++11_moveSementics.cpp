@@ -110,8 +110,8 @@ int main() {
 // Constructor: Allocation 20 int
 // Move Assignment Operator
 
-// C++
-//Constructor: Allocation 20 int
+// C++:
+// Constructor: Allocation 20 int
 // Copy Constructor: Allocation 20 int
 // Constructor: Allocation 20 int
 // Constructor: Allocation 20 int
