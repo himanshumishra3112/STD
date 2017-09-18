@@ -35,6 +35,7 @@ class Container {
 
 		if(this != &obj)
 		{
+			delete [] m_Data;
 			//Allocate an array of 20 int on heap
 			m_Data = new int[20];
 
@@ -44,6 +45,7 @@ class Container {
 
 			std::cout << "Assigment Operator: Allocation 20 int" << std::endl;
 		}
+		return *this;
 	}
 
 	// Move Constructor
@@ -71,6 +73,7 @@ class Container {
 
 			std::cout<<"Move Assignment Operator"<<std::endl;
 		}
+		return *this;
 	}
 
 };
