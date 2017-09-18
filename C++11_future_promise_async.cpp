@@ -22,7 +22,7 @@ int main()
 
     // do something else
     std::this_thread::sleep_for(chrono::milliseconds(20));
-	p.set_value(4);
+    p.set_value(4);
     x = fu.get();
     cout << "Get from child: " << x << endl;
     return 0;
