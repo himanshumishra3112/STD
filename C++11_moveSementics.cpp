@@ -102,3 +102,17 @@ int main() {
 
 	return 0;
 }
+
+// C++11:
+// Constructor: Allocation 20 int
+// Move Constructor
+// Constructor: Allocation 20 int
+// Constructor: Allocation 20 int
+// Move Assignment Operator
+
+// C++
+//Constructor: Allocation 20 int
+// Copy Constructor: Allocation 20 int
+// Constructor: Allocation 20 int
+// Constructor: Allocation 20 int
+// Assigment Operator: Allocation 20 int
